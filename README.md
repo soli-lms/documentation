@@ -2,6 +2,28 @@
 
 Ce dépôt centralise tous les documents liés à l'analyse, la conception, et le rapport final de Soli-LMS.
 
+## **Problème à fixer avec branche develop : Revenir dans l'historique**  
+
+#### **Problème :**
+En date du **samedi 16/11/2024**, une désynchronisation a été constatée entre la branche locale `develop` et son équivalent distant `origin/develop`.  
+
+Concrètement :  
+- La branche distante `origin/develop` pointe sur un commit antérieur à celui de la branche locale `develop`.  
+- Cela peut arriver lorsque lorsque la branche distante a été réinitialisée à un état antérieur.
+---
+
+#### **Solution :**  
+Pour résoudre ce problème et aligner la branche locale `develop` avec l’état actuel de la branche distante `origin/develop`, vous devez exécuter les commandes suivantes :  
+
+```bash
+git checkout develop
+git reset --hard origin/develop
+```
+
+**`git reset --hard origin/develop`** :  
+   - Cette commande force la branche locale `develop` à pointer exactement sur la même référence (commit) que la branche distante `origin/develop`.  
+   - Elle supprime tous les changements locaux (commits, modifications non ajoutées ou non commitées) qui ne sont pas présents sur la branche distante.
+
 ## Cloner le dépôt
 
 ````bash
