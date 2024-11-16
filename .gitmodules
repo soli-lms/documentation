@@ -19,3 +19,15 @@
 [submodule "pkg_autorisation"]
 	path = pkg_autorisation
 	url = https://github.com/soli-lms/pkg_autorisation_docs.git
+[submodule "pkg_creation_tache"]
+	path = pkg_creation_tache
+	url = https://github.com/soli-lms/pkg_creation_tache_docs.git
+[submodule "pkg_qcm_apprenant"]
+	path = pkg_qcm_apprenant
+	url = https://github.com/soli-lms/pkg_qcm_apprenant_docs.git
+[submodule "pkg_realisation_tache"]
+	path = pkg_realisation_tache
+	url = https://github.com/soli-lms/pkg_realisation_tache_docs.git
+[submodule "pkg_formation"]
+	path = pkg_formation
+	url = https://github.com/soli-lms/pkg_formation_docs.git
