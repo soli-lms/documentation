@@ -21,6 +21,11 @@ git submodule add https://github.com/soli-lms/pkg_realisation_projets_docs.git p
 git submodule add https://github.com/soli-lms/pkg_validations_docs.git pkg_validations
 git submodule add https://github.com/soli-lms/pkg_suivi_docs.git pkg_suivi
 git submodule add https://github.com/soli-lms/pkg_autorisation_docs.git pkg_autorisation
+
+git submodule add https://github.com/soli-lms/pkg_creation_tache_docs.git pkg_creation_tache
+git submodule add https://github.com/soli-lms/pkg_qcm_apprenant_docs.git pkg_qcm_apprenant
+git submodule add https://github.com/soli-lms/pkg_realisation_tache_docs.git pkg_realisation_tache
+git submodule add https://github.com/soli-lms/pkg_formation_docs.git pkg_formation
 ````
 
 
