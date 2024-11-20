@@ -25,8 +25,13 @@ git submodule add https://github.com/soli-lms/pkg_autorisation_docs.git pkg_auto
 
 
 ## Exécution de rapport localement sans github pages
+ 
+````bash
 
+# Installation de bundler 
+gem install bundler
 
+````
 
 ````bash
 # Installation
